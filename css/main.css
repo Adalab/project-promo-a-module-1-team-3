@@ -1,4 +1,11 @@
 
+:root {
+font-size: 62.5% ;
+--primary-color: #00ffff;
+--secundary-color: #54585a;
+--font-family: 'Rubik', sans-serif;
+} 
+
 
 .team-name {
     background-color: #099d8d;
@@ -10,6 +17,34 @@
 .top-menu {
     background-color: #14d9c4;
 }
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.team-title {
+color: var(--primary-color);
+font-family: var(--font-family);
+width: 9rem;
+height: 2.4rem;
+font-size: 2.4rem;
+margin: auto;
+padding: 2rem;
+display: flex;
+justify-content: center;
+}
+
+.description {   
+    color: var(--secundary-color);
+    text-align: center;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    gap: 1rem
+    }
+   
 .sandw1 {
     width: 290px;
     height: 45px;
