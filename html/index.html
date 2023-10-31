@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact us</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik&display=swap"
+    <title>Team Name</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/reset.css">
@@ -14,12 +14,20 @@
 <body>
     <header class="header">
         <section class="fixed">
-            <h1 class="team-name">Nombre del equipo</h1>
+            <div class="team-name">
+                <h1 class="team-name-h1">Nombre del grupo</h1>
+            </div>
             <nav class="top-menu">
-                <ul>
-                    <il>Equipo</il>
-                    <il>Quiénes somos</il>
-                    <il>Contacto</il>
+                <ul class="menu-list">
+                    <il>
+                        <a class="menu-item" href="#team">Equipo</a>
+                    </il>
+                    <il>
+                        <a class="menu-item" href="#about-us">Quiénes somos</a>
+                    </il>
+                    <il>
+                        <a class="menu-item" href="#contact">Contacto</a>
+                    </il>
                 </ul>
             </nav>
         </section>
@@ -28,10 +36,13 @@
 
     <main>
         <section class="hero">
-            IMG pinguino
-            Lema
+            <img class="team-img" src="../images/team-work.jpg" alt="Team Work" title="Team Work">
+            <div class="motto">
+                <h3 class="motto-text"> Este es el lema de nuestro super grupo de trabajo</h3>
+            </div>
+
         </section>
-        <section class="team">
+        <section id="team" class="team">
             <h2 class="team-title">EQUIPO</h2>
             <article class="description">
                 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate saepe at ex
@@ -60,7 +71,7 @@
                 maiores excepturi. Quas molestias recusandae, dolorem ab corrupti explicabo! Reiciendis dolorem voluptas
                 iure quibusdam?</p>
         </section>
-        <section class="about-us">
+        <section id="about-us" class="about-us">
             <h1>"Quiénes somos</h1>
             <h3 class="name">Reyes Jeréz</h3>
             <img src="https://ca.slack-edge.com/T2Q8FS5QB-U06239WP9R6-ae27f32ad21b-512" alt="Foto de Isa">
