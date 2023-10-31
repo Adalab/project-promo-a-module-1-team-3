@@ -111,6 +111,13 @@ justify-content: center;
 .sandw1 {
     width: 290px;
     height: 45px;
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.05;
+    letter-spacing: normal;
     color: black;
     background-color: blueviolet;
 }
@@ -127,6 +134,27 @@ align-items: center;
     font-family: opensans;
     margin: auto;
     text-align: center;
+    color: var(--tertiary-color);  
+ }
+ .sandw_2 {
+    margin: 30px 0 0; 
+ }
+ .sandw_11, .sandw_12 {
+    width: 290px;
+    height: 192px;
+    margin: 45px 0 30px;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--secundary-color);
+}
+ .sandw_12 {
+    margin: 75px 0 0;
  }
 .footer-list {
     padding: 3vh;
