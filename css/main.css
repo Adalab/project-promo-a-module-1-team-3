@@ -156,7 +156,21 @@ align-items: center;
  .sandw_12 {
     margin: 75px 0 0;
  }
-.description-adalaber {
+.about-us {
+    width: 193px;
+  height: 45px;
+  margin: 0 47.5px 30px 49.5px;
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--blue-green);
+}
+ .description-adalaber {
     width: 290px;
     height: 200px;
     margin: 60px 0 15px;
@@ -168,7 +182,21 @@ align-items: center;
     line-height: 1.5;
     letter-spacing: normal;
     text-align: center;
-    color: var(--gunmetal);
+    color: #099d8d;
+}
+.name-adalaber {
+    width: 147px;
+    height: 45px;
+    margin: 15px 70.5px 0 72.5px;
+    font-family: OpenSans;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: black;
 }
 .footer-list {
     padding: 3vh;
