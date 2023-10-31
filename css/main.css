@@ -156,6 +156,20 @@ align-items: center;
  .sandw_12 {
     margin: 75px 0 0;
  }
+.description-adalaber {
+    width: 290px;
+    height: 200px;
+    margin: 60px 0 15px;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--gunmetal);
+}
 .footer-list {
     padding: 3vh;
     margin: auto;
