@@ -7,6 +7,7 @@ font-size: 62.5% ;
 --text-color: white;
 --font-family: 'Rubik', sans-serif;
 --opensans-font: 'Open Sans', sans-serif;
+--background-color-sandw: #b8b8b9;
 
 } 
 
@@ -108,20 +109,6 @@ justify-content: center;
     gap: 1rem
     }
    
-.sandw1 {
-    width: 290px;
-    height: 45px;
-    font-family: Rubik;
-    font-size: 22px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2.05;
-    letter-spacing: normal;
-    color: black;
-    background-color: blueviolet;
-}
-
 .footer-elements {
    display: flex;
    flex-direction: column;
@@ -136,6 +123,21 @@ align-items: center;
     text-align: center;
     color: var(--tertiary-color);  
  }
+ .sandw {
+  width: 320px;
+  height: 579px;
+  padding: 30px 15px 45px;
+  background-color: var(--background-color-sandw);
+  text-align: center;
+ }
+ .sandw_1, .sandw_2 {
+    font-family: var(--font-family);
+    font-size: 22px;
+    font-style: normal;
+    line-height: 2.05;
+    letter-spacing: normal;
+    color: var(--tertiary-color); 
+}
  .sandw_2 {
     margin: 30px 0 0; 
  }
@@ -143,7 +145,7 @@ align-items: center;
     width: 290px;
     height: 192px;
     margin: 45px 0 30px;
-    font-family: OpenSans;
+    font-family: var(--opensans-font);
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
