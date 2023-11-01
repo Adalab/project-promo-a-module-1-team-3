@@ -4,10 +4,11 @@ font-size: 62.5% ;
 --primary-color: #00ffff;
 --secundary-color: #54585a;
 --tertiary-color: #099d8d;
+--quaternary-color: #b8b8b9;
 --text-color: white;
 --font-family: 'Rubik', sans-serif;
 --opensans-font: 'Open Sans', sans-serif;
---grey-color: #b8b8b9;
+
 
 } 
 
@@ -124,14 +125,13 @@ align-items: center;
     color: var(--tertiary-color);  
  }
  .sandw {
-  padding: 30px 15px 45px;
-  background-color: var(--grey-color);
-  text-align: center;
+    padding: 30px 15px 45px;
+    background-color: var(--quaternary-color);
+    text-align: center;
  }
  .sandw_1, .sandw_2 {
     font-family: var(--font-family);
     font-size: 22px;
-    font-style: normal;
     line-height: 2.05;
     color: var(--tertiary-color); 
 }
@@ -139,16 +139,11 @@ align-items: center;
     margin: 30px 0 0; 
  }
  .sandw_11, .sandw_12 {
-    margin: 45px 0 30px;
     font-family: var(--opensans-font);
     font-size: 16px;
-    font-style: normal;
     line-height: 1.5;
     color: var(--secundary-color);
 }
- .sandw_12 {
-    margin: 75px 0 0;
- }
 .about-us {
     width: 193px;
   height: 45px;
