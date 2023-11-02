@@ -4,9 +4,11 @@ font-size: 62.5% ;
 --primary-color: #00ffff;
 --secundary-color: #54585a;
 --tertiary-color: #099d8d;
+--quaternary-color: #b8b8b9;
 --text-color: white;
 --font-family: 'Rubik', sans-serif;
 --opensans-font: 'Open Sans', sans-serif;
+
 
 } 
 
@@ -108,20 +110,6 @@ justify-content: center;
     gap: 1rem
     }
    
-.sandw1 {
-    width: 290px;
-    height: 45px;
-    font-family: Rubik;
-    font-size: 22px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2.05;
-    letter-spacing: normal;
-    color: black;
-    background-color: blueviolet;
-}
-
 .footer-elements {
    display: flex;
    flex-direction: column;
@@ -136,13 +124,44 @@ align-items: center;
     text-align: center;
     color: var(--tertiary-color);  
  }
- .sandw_2 {
+ .sandw {
+    padding: 30px 15px 45px;
+    background-color: var(--quaternary-color);
+    text-align: center;
+ }
+ .sandw_1, .sandw_2 {
+    font-family: var(--font-family);
+    font-size: 22px;
+    line-height: 2.05;
+    color: var(--tertiary-color); 
+}
+.sandw_2 {
     margin: 30px 0 0; 
  }
  .sandw_11, .sandw_12 {
+    font-family: var(--opensans-font);
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--secundary-color);
+}
+.about-us {
+    width: 193px;
+  height: 45px;
+  margin: 0 47.5px 30px 49.5px;
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--blue-green);
+}
+ .description-adalaber {
     width: 290px;
-    height: 192px;
-    margin: 45px 0 30px;
+    height: 200px;
+    margin: 60px 0 15px;
     font-family: OpenSans;
     font-size: 16px;
     font-weight: normal;
@@ -151,11 +170,22 @@ align-items: center;
     line-height: 1.5;
     letter-spacing: normal;
     text-align: center;
-    color: var(--secundary-color);
+    color: #099d8d;
 }
- .sandw_12 {
-    margin: 75px 0 0;
- }
+.name-adalaber {
+    width: 147px;
+    height: 45px;
+    margin: 15px 70.5px 0 72.5px;
+    font-family: OpenSans;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: black;
+}
 .footer-list {
     padding: 3vh;
     margin: auto;
