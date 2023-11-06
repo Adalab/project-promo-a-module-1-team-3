@@ -1,3 +1,248 @@
+<<<<<<< HEAD
+@import 'core/variables';
+@import 'core/reset';
+@import 'components/code';
+@import 'components/links';
+@import 'layout/page';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'pages/index';
+
+:root {
+   font-size: 62.5% ;
+   --primary-color: #00ffff;
+   --secundary-color: #54585a;
+   --tertiary-color: #099d8d;
+   --quaternary-color: #b8b8b9;
+   --text-color: white;
+   --font-family: 'Rubik', sans-serif;
+   --opensans-font: 'Open Sans', sans-serif;
+   
+   
+   } 
+   
+   .fixed {
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       width: 100vw;
+   }
+   
+   .team-name {
+       background-color: var(--tertiary-color);
+       font-family: var(--font-family);
+       font-size: 1.6rem;
+       text-transform: uppercase;
+       color:var(--text-color);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 60px;
+       text-align: center;
+   }
+   
+   .top-menu {
+       background-color: #14d9c4;
+       height: 45px;
+       font-family: var(--font-family);
+       font-size: 1.5rem;
+       text-transform: uppercase;
+       padding-top: 8px;
+   }
+   
+   .menu-list {
+       display: flex;
+       justify-content: space-evenly;
+       align-items: center;
+       padding-top: 8px;
+   }
+   
+   .menu-item {
+       text-decoration: none;
+       color: var(--text-color);
+   }
+   
+   .hero {
+       width: 100vw;
+   }
+   
+   .team-img{
+       width: 100vw;
+   }
+   
+   .motto {
+       background-color: var(--text-color);
+       height: 80px;
+       width: 90vw;
+       position: relative;
+       left: 5vw;
+       top: -40px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       
+   }
+   
+   .motto-text {
+       font-size: 1.8rem;
+       font-family:var(--opensans-font);
+       font-weight: 600;
+       width: 80vw;
+       line-height: 1.2;
+   }
+   
+   .team {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       }
+   
+   .team-title {
+   color: var(--primary-color);
+   font-family: var(--font-family);
+   width: 9rem;
+   height: 2.4rem;
+   font-size: 2.4rem;
+   margin: auto;
+   padding: 2rem;
+   display: flex;
+   justify-content: center;
+   }
+   
+   .description {   
+       color: var(--secundary-color);
+       text-align: center;
+       width: 70vw;
+       display: flex;
+       flex-direction: column;
+       margin: 1rem;
+       gap: 1rem
+       }
+      
+   .footer-elements {
+      display: flex;
+      flex-direction: column;
+   align-items: center;
+       margin: auto;
+       padding: 2vh ;
+   }
+   .name-group {
+       color: #b8b8b9;
+       font-family: opensans;
+       margin: auto;
+       text-align: center;
+       color: var(--tertiary-color);  
+    }
+    .sandw {
+       padding: 30px 15px 45px;
+       background-color: var(--quaternary-color);
+       text-align: center;
+    }
+    .sandw_1, .sandw_2 {
+       font-family: var(--font-family);
+       font-size: 22px;
+       line-height: 2.05;
+       color: var(--tertiary-color); 
+   }
+   .sandw_2 {
+       margin: 30px 0 0; 
+    }
+    .sandw_11, .sandw_12 {
+       font-family: var(--opensans-font);
+       font-size: 16px;
+       line-height: 1.5;
+       color: var(--secundary-color);
+   }
+   .container {
+    font-family: var(--opensans-font);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center
+   /* font-family: var(--opensans-font);
+    padding: 0 5% 5%;
+    font-size: 16px;
+    color: black; */
+   }
+
+   .tittle-about-us {
+    display: table-cell;
+    color: #099d8d;
+    font-family: 'Rubik';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.88;
+   }
+   .name-adalaber {
+    width: 100%;
+    height: 45px;
+    font-family: var(--opensans-font);    
+    font-size: 20px;
+    line-height: 2,25;
+    text-align: center;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   }
+
+    .description-adalaber {
+       width: 100%;
+       font-size: 16px;
+       box-sizing: border-box;
+       margin-left: 13%;
+       margin-right: 16%;
+       margin-bottom: 10%;
+       color: #54585a;
+       font-family: OpenSans;
+       font-size: 16px;
+       font-weight: normal;
+       font-stretch: normal;
+       font-style: normal;
+       line-height: 1.5;
+       text-align: center;
+   }
+
+    .adalaber-img {
+        display: flex;
+        width: 50%;
+        margin: 0 25px 25px;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+
+    .social-media {
+        color: #099d8d;
+        list-style: none;
+    }
+
+   .footer-list {
+       padding: 3vh;
+       margin: auto;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       }
+   
+   .final-list {
+           font-family: opensans;
+            }
+       .enlaces {
+           text-decoration-line: none;
+           color: var(--secundary-color);
+       }
+       
+   .logo-footer {
+       margin: auto;
+       width: 3.5rem;
+       height: 3rem;
+   }
+=======
 @import "core/variables";
 @import "core/reset";
 @import "components/code";
@@ -405,3 +650,4 @@ margin-top: 0 0 0 182rem; */
     margin: 1.5rem 48.41rem 0.4rem 0;
   }
 }
+>>>>>>> 3b7ec4a615551da3b3ee77d32bd4d32e0e3374ef
