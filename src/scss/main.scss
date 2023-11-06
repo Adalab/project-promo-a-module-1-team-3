@@ -152,68 +152,72 @@
        line-height: 1.5;
        color: var(--secundary-color);
    }
-   .about-us {
-       width: 193px;
-     height: 45px;
-     margin: 0 47.5px 30px 49.5px;
-     font-family: Rubik;
-     font-size: 24px;
-     font-weight: 500;
-     font-stretch: normal;
-     font-style: normal;
-     line-height: 1.88;
-     letter-spacing: normal;
-     text-align: center;
-     color: var(--blue-green);
+   .container {
+    font-family: var(--opensans-font);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center
+   /* font-family: var(--opensans-font);
+    padding: 0 5% 5%;
+    font-size: 16px;
+    color: black; */
+   }
+
+   .tittle-about-us {
+    display: table-cell;
+    color: #099d8d;
+    font-family: 'Rubik';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.88;
    }
    .name-adalaber {
-    width: 147px;
+    width: 100%;
     height: 45px;
-    margin: 15px 70.5px 0 72.5px;
     font-family: var(--opensans-font);    
     font-size: 20px;
     line-height: 2,25;
     text-align: center;
     color: black;
-
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
    }
+
     .description-adalaber {
-       width: 290px;
-       height: 200px;
-       margin: 60px 0 15px;
+       width: 100%;
+       font-size: 16px;
+       box-sizing: border-box;
+       margin-left: 13%;
+       margin-right: 16%;
+       margin-bottom: 10%;
+       color: #54585a;
        font-family: OpenSans;
        font-size: 16px;
        font-weight: normal;
        font-stretch: normal;
        font-style: normal;
        line-height: 1.5;
-       letter-spacing: normal;
        text-align: center;
-       color: #54585a;
-   }
-   .name-adalaber {
-       width: 147px;
-       height: 45px;
-       margin: 15px 70.5px 0 72.5px;
-       font-family: OpenSans;
-       font-size: 20px;
-       font-weight: normal;
-       font-stretch: normal;
-       font-style: normal;
-       line-height: 2.25;
-       letter-spacing: normal;
-       text-align: center;
-       color: black;
    }
 
     .adalaber-img {
         display: flex;
-        width: 56.25vw;
-        justify-content: center;
+        width: 50%;
+        margin: 0 25px 25px;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
     }
-    
+
     .social-media {
         color: #099d8d;
+        list-style: none;
     }
 
    .footer-list {
