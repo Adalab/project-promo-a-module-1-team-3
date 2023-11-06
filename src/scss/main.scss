@@ -1,260 +1,364 @@
-@import 'core/variables';
-@import 'core/reset';
-@import 'components/code';
-@import 'components/links';
-@import 'layout/page';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'pages/index';
+@import "core/variables";
+@import "core/reset";
+@import "components/code";
+@import "components/links";
+@import "layout/page";
+@import "layout/header";
+@import "layout/footer";
+@import "pages/index";
 
 :root {
-   font-size: 62.5% ;
-   --primary-color: #00ffff;
-   --secundary-color: #54585a;
-   --tertiary-color: #099d8d;
-   --quaternary-color: #b8b8b9;
-   --text-color: white;
-   --font-family: 'Rubik', sans-serif;
-   --opensans-font: 'Open Sans', sans-serif;
-   
-   
-   } 
-   
-   .fixed {
-       display: flex;
-       flex-direction: column;
-       flex-wrap: wrap;
-       width: 100vw;
-   }
-   
-   .team-name {
-       background-color: var(--tertiary-color);
-       font-family: var(--font-family);
-       width: 9rem;
-       height: 4.5rem;
-       font-size: 2.4rem;
-       margin: auto;
-       margin-bottom: 1.5rem;
-       text-transform: uppercase;
-       color:var(--text-color);
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       text-align: center;
-   }
-   
-   .top-menu {
-       background-color: #14d9c4;
-       height: 45px;
-       font-family: var(--font-family);
-       font-size: 1.5rem;
-       text-transform: uppercase;
-       padding-top: 8px;
-   }
-   
-   .menu-list {
-       display: flex;
-       justify-content: space-evenly;
-       align-items: center;
-       padding-top: 8px;
-   }
-   
-   .menu-item {
-       text-decoration: none;
-       color: var(--text-color);
-   }
-   
-   .hero {
-       width: 100vw;
-   }
-   
-   .team-img{
-       width: 100vw;
-   }
-   
-   .motto {
-       background-color: var(--text-color);
-       height: 80px;
-       width: 90vw;
-       position: relative;
-       left: 5vw;
-       top: -40px;
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       
-   }
-   
-   .motto-text {
-       font-size: 1.8rem;
-       font-family:var(--opensans-font);
-       font-weight: 600;
-       width: 80vw;
-       line-height: 1.2;
-   }
-   
-   .team {
-    padding: 3rem 1.5rem;   
+  font-size: 62.5%;
+  --primary-color: #00ffff;
+  --secundary-color: #54585a;
+  --tertiary-color: #099d8d;
+  --quaternary-color: #b8b8b9;
+  --text-color: white;
+  --font-family: "Rubik", sans-serif;
+  --opensans-font: "Open Sans", sans-serif;
+}
+
+.fixed {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.team-name {
+  background-color: var(--tertiary-color);
+  font-family: var(--font-family);
+  width: 9rem;
+  height: 4.5rem;
+  font-size: 2.4rem;
+  margin: auto;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.top-menu {
+  background-color: #14d9c4;
+  height: 45px;
+  font-family: var(--font-family);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding-top: 8px;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 8px;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.hero {
+  width: 100vw;
+}
+
+.team-img {
+  width: 100vw;
+}
+
+.motto {
+  background-color: var(--text-color);
+  height: 80px;
+  width: 90vw;
+  position: relative;
+  left: 5vw;
+  top: -40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.motto-text {
+  font-size: 1.8rem;
+  font-family: var(--opensans-font);
+  font-weight: 600;
+  width: 80vw;
+  line-height: 1.2;
+}
+
+.team {
+  padding: 3rem 1.5rem;
+  width: 32rem;
+  height: 50.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.team-title {
+  color: var(--primary-color);
+  font-family: var(--font-family);
+  font-weight: 500;
+  width: 8.9rem;
+  height: 4.5rem;
+  font-size: 2.4rem;
+  margin: 0 9.95rem 1.5rem 10.15rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  line-height: 1.88;
+}
+
+.description {
+  color: var(--secundary-color);
+  font-size: 1.6rem;
+  text-align: center;
+  width: 29rem;
+  height: 38.4rem;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  gap: 1rem;
+  font-family: var(--opensans-font);
+  line-height: 1.5;
+}
+
+.sandw {
+  padding: 30px 15px 45px;
+  background-color: var(--quaternary-color);
+  text-align: center;
+}
+.sandw_1,
+.sandw_2 {
+  font-family: var(--font-family);
+  font-size: 22px;
+  line-height: 2.05;
+  color: var(--tertiary-color);
+}
+.sandw_2 {
+  margin: 30px 0 0;
+}
+.sandw_11,
+.sandw_12 {
+  font-family: var(--opensans-font);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--secundary-color);
+}
+.about-us {
+  width: 193px;
+  height: 45px;
+  margin: 0 47.5px 30px 49.5px;
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--blue-green);
+}
+.name-adalaber {
+  width: 147px;
+  height: 45px;
+  margin: 15px 70.5px 0 72.5px;
+  font-family: var(--opensans-font);
+  font-size: 20px;
+  line-height: 2, 25;
+  text-align: center;
+  color: black;
+}
+.description-adalaber {
+  width: 290px;
+  height: 200px;
+  margin: 60px 0 15px;
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #54585a;
+}
+.name-adalaber {
+  width: 147px;
+  height: 45px;
+  margin: 15px 70.5px 0 72.5px;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: black;
+}
+
+.adalaber-img {
+  display: flex;
+  width: 56.25vw;
+  justify-content: center;
+}
+
+.social-media {
+  color: #099d8d;
+}
+
+.footer-elements {
+  /*  width: 32rem;
+    height: 25rem;
+    margin: 222.5rem 0 0; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 3rem 5rem 4.5rem;
+  background-color: white;
+  border-top: solid 0.1rem var(--quaternary-color);
+}
+
+.name-group {
+  /* width: 17.2rem;
+height: 2rem; */
+  margin: 0 0 2rem;
+  color: var(--quaternary-color);
+  font-size: 1.4rem;
+  font-family: var(--opensans-font);
+  text-align: center;
+  line-height: 1.43;
+}
+.footer-list {
+  /* width: 11.4rem;
+    height: 6rem;
+    margin: 2rem 2.9rem 3rem; */
+  font-size: 1.4rem;
+  font-family: var(--opensans-font);
+  color: var(--secundary-color);
+  font-weight: 600;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  line-height: 1.43;
+  opacity: 0.75;
+}
+
+.enlaces {
+  text-decoration-line: none;
+  color: var(--secundary-color);
+}
+
+.logo-footer {
+  width: 11.59rem;
+  height: 4.5rem;
+  margin: 3rem 2.81rem 0 2.8rem;
+}
+
+@media (min-widht: 768px) {
+  .team {
+    width: 76.8rem;
+    height: 30.3rem;
+    margin: 0 0 0.7rem;
+    padding: 4.5rem 4.5rem 30px;
+  }
+
+  .team-title {
+    color: var(--tertiary-color);
+    width: 8.87px;
+    margin: 0 29.43rem 1.5rem 29.5rem;
+  }
+
+  .description {
+    opacity: 0.67;
+    width: 67.8rem;
+    height: 16.8rem;
+    margin: 1.5rem 0 0;
+    opacity: 0.67;
+  }
+
+  .footer-elements {
+    /*  width: 76.8rem;
+    height: 17rem;
+    margin: 124rem 0 0;
+    padding: 2.4rem 4.5rem 5.6rem; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 6rem 6rem;
+    grid-template-areas:
+      "una dos tres"
+      "cuatro cinco seis";
+    margin: auto;
+    padding: 2.4rem 4.5rem 5.6rem;
+  }
+
+  .name-group {
+    margin: 0.6rem 18.2rem 1.5rem 0;
+  }
+  .footer-list {
+    /* width: 32.4rem;
+height: 9rem;
+margin-top: 0 0 0 182rem; */
+    order: 3;
+    grid-row: span 2;
+    grid-column: tres;
     display: flex;
-       flex-direction: column;
-       align-items: center;
-       background-color: white;
-       }
-   
-   .team-title {
-        color: var(--primary-color);
-        font-family: var(--font-family);
-        font-weight: 500;
-        width: 9rem;
-        height: 2.4rem;
-        font-size: 2.4rem;
-        margin: 0 9.95rem 1.5rem 10.15rem;
-        padding: 2rem;
-        display: flex;
-        justify-content: center;
-        line-height: 1.88;
-   }
-   
-   .description {   
-       color: var(--secundary-color);
-       font-size: 1.6rem;
-       text-align: center;
-       width: 70vw;
-       display: flex;
-       flex-direction: column;
-       margin: 1rem;
-       gap: 1rem;
-       font-family: var(--opensans-font);
-       line-height: 1.5;
-       }
+    flex-direction: column;
+    align-items: flex-end;
+    list-style: none;
+    line-height: 2.14;
+  }
 
-       .sandw {
-       padding: 30px 15px 45px;
-       background-color: var(--quaternary-color);
-       text-align: center;
-    }
-    .sandw_1, .sandw_2 {
-       font-family: var(--font-family);
-       font-size: 22px;
-       line-height: 2.05;
-       color: var(--tertiary-color); 
-   }
-   .sandw_2 {
-       margin: 30px 0 0; 
-    }
-    .sandw_11, .sandw_12 {
-       font-family: var(--opensans-font);
-       font-size: 16px;
-       line-height: 1.5;
-       color: var(--secundary-color);
-   }
-   .about-us {
-       width: 193px;
-     height: 45px;
-     margin: 0 47.5px 30px 49.5px;
-     font-family: Rubik;
-     font-size: 24px;
-     font-weight: 500;
-     font-stretch: normal;
-     font-style: normal;
-     line-height: 1.88;
-     letter-spacing: normal;
-     text-align: center;
-     color: var(--blue-green);
-   }
-   .name-adalaber {
-    width: 147px;
-    height: 45px;
-    margin: 15px 70.5px 0 72.5px;
-    font-family: var(--opensans-font);    
-    font-size: 20px;
-    line-height: 2,25;
-    text-align: center;
-    color: black;
+  .logo-footer {
+    grid-area: cuatro;
+    display: flex;
+    align-items: flex-start;
+    /*  margin:1.5rem 23.81rem 4rem 0; */
+  }
+}
 
-   }
-    .description-adalaber {
-       width: 290px;
-       height: 200px;
-       margin: 60px 0 15px;
-       font-family: OpenSans;
-       font-size: 16px;
-       font-weight: normal;
-       font-stretch: normal;
-       font-style: normal;
-       line-height: 1.5;
-       letter-spacing: normal;
-       text-align: center;
-       color: #54585a;
-   }
-   .name-adalaber {
-       width: 147px;
-       height: 45px;
-       margin: 15px 70.5px 0 72.5px;
-       font-family: OpenSans;
-       font-size: 20px;
-       font-weight: normal;
-       font-stretch: normal;
-       font-style: normal;
-       line-height: 2.25;
-       letter-spacing: normal;
-       text-align: center;
-       color: black;
-   }
+@media (min-width: 1200px) {
+  .team {
+    width: 120rem;
+    height: 35.7rem;
+    margin: 0 0 30.9rem;
+    padding: 4.5rem 30rem 6rem 29.9rem;
+  }
 
-    .adalaber-img {
-        display: flex;
-        width: 56.25vw;
-        justify-content: center;
-    }
-    
-    .social-media {
-        color: #099d8d;
-    }
+  .team-title {
+    margin: 0 25.53rem 1.5rem 25.7rem;
+  }
 
-    .footer-elements {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-         margin: auto;
-        padding: 3rem 5rem 4.5rem;
-         background-color: white;
-         border-top: solid 0.1rem var(--quaternary-color);
-     }
+  .description {
+    width: 60.1rem;
+    height: 19.2rem;
+  }
 
-     .name-group {
-         color: var(--quaternary-color);
-         font-size: 1.4rem;
-         font-family: var(--opensans-font);
-         margin: auto;
-         margin-bottom: 2rem;
-         text-align: center;
-      }
-   .footer-list {
-        font-size: 1.4rem; 
-        font-family: var(--opensans-font); 
-        color: var(--secundary-color);
-        font-weight: 600;
-       margin: auto;
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       list-style: none;
-       line-height: 1.43;
-       opacity: 0.75;
-       }
-   
-   .final-list {
-           font-family: opensans;
-            }
+  .footer-elements {
+    width: 120rem;
+    height: 16.1rem;
+    margin: 148.3rem 0 0;
+    padding: 2.4rem 13.8rem 4.7rem;
+  }
 
-    .enlaces {
-           text-decoration-line: none;
-           color: var(--secundary-color);
-       }
-       
-   .logo-footer {
-       width: 11.6rem;
-       height: 4.5rem;
-       margin: 3rem 2.81rem 0 2.8rem;
-   }
+  .name-group {
+    margin: 0.6rem 42.8rem 1.5rem 0;
+  }
+
+  .footer-list {
+    margin: 0 0 0 42.8rem;
+  }
+
+  .logo-footer {
+    margin: 1.5rem 48.41rem 0.4rem 0;
+  }
+}
