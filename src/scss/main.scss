@@ -9,7 +9,7 @@
 
 :root {
   font-size: 62.5%;
-  --primary-color: #00ffff;
+  --primary-color: #14d9c4;
   --secundary-color: #54585a;
   --tertiary-color: #099d8d;
   --quaternary-color: #b8b8b9;
@@ -19,7 +19,7 @@
 }
 
 .header {
-    position: sticky;
+  position: sticky;
   top: 0px;
   left: 0px;
   z-index: 999;
@@ -47,7 +47,7 @@
 }
 
 .top-menu {
-  background-color: #14d9c4;
+  background-color: var(--primary-color);
   height: 45px;
   font-family: var(--font-family);
   font-size: 1.5rem;
@@ -274,8 +274,41 @@ height: 2rem; */
   margin: 3rem 2.81rem 0 2.8rem;
 }
 
-@media (min-widht: 768px) {
-  .team {
+@media (min-width: 768px) {
+    .fixed {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 46px;
+        padding-right: 46px;
+    }
+
+    .team-name {
+        margin: 0;
+      }
+
+    .top-menu {
+        background-color: var(--tertiary-color); 
+    }
+
+    .menu-list {
+        gap: 19px;
+    }
+  
+    // .motto {
+    //     position: absolute;
+    //     bottom: 0px;
+    //     opacity: 0.8;
+    //     z-index: 99;
+    //     width: 60vw;
+    // }
+
+    // .motto-text {
+    //     opacity: 1;
+    // }
+ 
+
+    .team {
     width: 76.8rem;
     height: 30.3rem;
     margin: 0 0 0.7rem;
