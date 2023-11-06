@@ -18,21 +18,26 @@
   --opensans-font: "Open Sans", sans-serif;
 }
 
+.header {
+    position: sticky;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
+}
+
 .fixed {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   width: 100vw;
+  background-color: var(--tertiary-color);
 }
 
 .team-name {
-  background-color: var(--tertiary-color);
   font-family: var(--font-family);
-  width: 9rem;
-  height: 4.5rem;
-  font-size: 2.4rem;
+  height: 6rem;
+  font-size: 1.6rem;
   margin: auto;
-  margin-bottom: 1.5rem;
   text-transform: uppercase;
   color: var(--text-color);
   display: flex;
@@ -64,6 +69,11 @@
 
 .hero {
   width: 100vw;
+}
+
+.container__team-img {
+    height: 100vh;
+    overflow: hidden;
 }
 
 .team-img {
