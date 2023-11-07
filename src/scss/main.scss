@@ -13,6 +13,7 @@
   --secundary-color: #54585a;
   --tertiary-color: #099d8d;
   --quaternary-color: #b8b8b9;
+  --quinary-color: black -8;
   --text-color: white;
   --font-family: "Rubik", sans-serif;
   --opensans-font: "Open Sans", sans-serif;
@@ -177,32 +178,32 @@
 .container {
   font-family: var(--opensans-font);
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 100%;
   text-align: center;
-  /* font-family: var(--opensans-font);
-    padding: 0 5% 5%;
-    font-size: 16px;
-    color: black; */
+  padding: 0 5% 5%;
+  font-size: 1.6rem;
+  
 }
 
 .tittle-about-us {
-  display: table-cell;
-  color: #099d8d;
   font-family: "Rubik";
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 500;
   line-height: 1.88;
+  color: #099d8d;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
 }
 .name-adalaber {
-  width: 100%;
+  width: 100vw;
   height: 45px;
   font-family: var(--opensans-font);
-  font-size: 20px;
-  line-height: 2, 25;
+  font-size: 2rem;
+  line-height: 2,25;
   text-align: center;
   color: black;
   display: flex;
@@ -211,30 +212,29 @@
   align-items: center;
 }
 
-.description-adalaber {
-  width: 100%;
-  font-size: 16px;
-  box-sizing: border-box;
+.adalaber-description {
+  display:flex
+  /*width: 100vw;
   margin-left: 13%;
   margin-right: 16%;
   margin-bottom: 10%;
   color: #54585a;
   font-family: OpenSans;
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
+  font-size: 1.6rem;
   line-height: 1.5;
-  text-align: center;
+  text-align: center;*/
 }
 
 .adalaber-img {
   display: flex;
-  width: 50%;
-  margin: 0 25px 25px;
-  flex-direction: column;
+  width: 50vw;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  border-block-color: var(--quinary-color);
+  border: solid;
+  border-radius: 0.5rem;;
+
 }
 
 .social-media {
