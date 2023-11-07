@@ -152,6 +152,12 @@
   text-align: center;
   color: var(--tertiary-color);
 }
+.sandw {
+  position: relative;
+  padding: 30px 15px 45px;
+  background-color: var(--quaternary-color);
+  text-align: center;
+}
 .diamond {
   display: flex;
   align-items: flex-start;
@@ -165,17 +171,12 @@
   background-color: var(--text-color);
   top: -15px;
 }
-.sandw {
-  padding: 30px 15px 45px;
-  background-color: var(--quaternary-color);
-  text-align: center;
-}
 .sandw_1,
 .sandw_2 {
   font-family: var(--font-family);
   font-size: 22px;
   line-height: 2.05;
-  color: var(--tertiary-color);
+  color:var(--tertiary-color);
 }
 .sandw_2 {
   margin: 30px 0 0;
