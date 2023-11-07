@@ -152,6 +152,19 @@
   text-align: center;
   color: var(--tertiary-color);
 }
+.diamond {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.rectangle {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  background-color: var(--text-color);
+  top: -15px;
+}
 .sandw {
   padding: 30px 15px 45px;
   background-color: var(--quaternary-color);
