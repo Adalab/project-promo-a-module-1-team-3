@@ -69,15 +69,16 @@
 
 .hero {
   width: 100vw;
+  height: calc(100vh - 60px);
+  overflow: hidden;
 }
 
 .container__team-img {
-  height: 100vh;
   overflow: hidden;
 }
 
 .team-img {
-  width: 100vw;
+  max-width: 100%;
 }
 
 .motto {
@@ -146,7 +147,7 @@
   padding: 2vh;
 }
 .name-group {
-  color: #b8b8b9;
+  color: var(--quaternary-color);
   font-family: opensans;
   margin: auto;
   text-align: center;
@@ -315,11 +316,11 @@
   }
 
   .motto {
-    bottom: 0px;
     opacity: 0.8;
     z-index: 99;
     width: 60vw;
-    top: -80px;
+    position: absolute;
+    top: calc(100vh - 80px);
   }
 
   .motto-text {
