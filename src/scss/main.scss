@@ -103,9 +103,10 @@
 }
 
 .team {
-  padding: 3rem 1.5rem;
+  padding: 1.5rem;
   width: 32rem;
   height: 50.4rem;
+  margin: 2rem auto 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -116,11 +117,11 @@
   color: var(--primary-color);
   font-family: var(--font-family);
   font-weight: 500;
-  width: 8.9rem;
+  width: 15rem;
   height: 4.5rem;
   font-size: 2.4rem;
-  margin: 0 9.95rem 1.5rem 10.15rem;
-  padding: 2rem;
+  margin: 0 auto 0.5rem;
+  padding: 0.5rem;
   display: flex;
   justify-content: center;
   line-height: 1.88;
@@ -178,7 +179,7 @@
   font-family: var(--font-family);
   font-size: 22px;
   line-height: 2.05;
-  color:var(--tertiary-color);
+  color: var(--tertiary-color);
 }
 .sandw_2 {
   margin: 30px 0 0;
@@ -200,7 +201,6 @@
   text-align: center;
   padding: 0 5% 5%;
   font-size: 1.6rem;
-  
 }
 
 .tittle-about-us {
@@ -218,7 +218,7 @@
   height: 45px;
   font-family: var(--opensans-font);
   font-size: 2rem;
-  line-height: 2,25;
+  line-height: 2, 25;
   text-align: center;
   color: black;
   display: flex;
@@ -228,7 +228,7 @@
 }
 
 .adalaber-description {
-  display:flex
+  display: flex;
   /*width: 100vw;
   margin-left: 13%;
   margin-right: 16%;
@@ -248,8 +248,7 @@
   justify-content: center;
   border-block-color: var(--quinary-color);
   border: solid;
-  border-radius: 0.5rem;;
-
+  border-radius: 0.5rem;
 }
 
 .social-media {
@@ -343,15 +342,13 @@
 
   .team {
     width: 76.8rem;
-    height: 30.3rem;
-    margin: 0 0 0.7rem;
-    padding: 4.5rem 4.5rem 30px;
+    height: 26rem;
+    margin: 1.5rem auto;
+    padding: 1rem;
   }
 
   .team-title {
     color: var(--tertiary-color);
-    width: 8.87px;
-    margin: 0 29.43rem 1.5rem 29.5rem;
   }
 
   .description {
@@ -363,30 +360,26 @@
   }
 
   .footer-elements {
-    /*  width: 76.8rem;
-    height: 17rem;
-    margin: 124rem 0 0;
-    padding: 2.4rem 4.5rem 5.6rem; */
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 60% 1fr;
     grid-template-rows: 6rem 6rem;
     grid-template-areas:
-      "una dos tres"
-      "cuatro cinco seis";
-    margin: auto;
-    padding: 2.4rem 4.5rem 5.6rem;
+      "una dos"
+      "tres cuatro";
+    margin: 4.5rem 0 3rem;
+    padding: 1rem 4.5rem;
   }
 
   .name-group {
-    margin: 0.6rem 18.2rem 1.5rem 0;
+    margin: 0;
+    width: 25rem;
+    text-align: left;
   }
   .footer-list {
-    /* width: 32.4rem;
-height: 9rem;
-margin-top: 0 0 0 182rem; */
+    margin: 0;
     order: 3;
     grid-row: span 2;
-    grid-column: tres;
+    grid-column: dos;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -395,23 +388,19 @@ margin-top: 0 0 0 182rem; */
   }
 
   .logo-footer {
-    grid-area: cuatro;
+    grid-area: tres;
     display: flex;
     align-items: flex-start;
-    /*  margin:1.5rem 23.81rem 4rem 0; */
+    margin: 0;
   }
 }
 
 @media (min-width: 1200px) {
   .team {
     width: 120rem;
-    height: 35.7rem;
-    margin: 0 0 30.9rem;
-    padding: 4.5rem 30rem 6rem 29.9rem;
-  }
-
-  .team-title {
-    margin: 0 25.53rem 1.5rem 25.7rem;
+    height: 32rem;
+    margin: 2rem auto;
+    padding: 2.5rem;
   }
 
   .description {
@@ -420,21 +409,6 @@ margin-top: 0 0 0 182rem; */
   }
 
   .footer-elements {
-    width: 120rem;
-    height: 16.1rem;
-    margin: 148.3rem 0 0;
-    padding: 2.4rem 13.8rem 4.7rem;
-  }
-
-  .name-group {
-    margin: 0.6rem 42.8rem 1.5rem 0;
-  }
-
-  .footer-list {
-    margin: 0 0 0 42.8rem;
-  }
-
-  .logo-footer {
-    margin: 1.5rem 48.41rem 0.4rem 0;
+    padding: 1rem 13.8rem;
   }
 }
