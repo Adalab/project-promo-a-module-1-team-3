@@ -79,7 +79,7 @@
 }
 
 .team-img {
-  max-width: 100%;
+  max-width: 150%;
 }
 
 .motto {
@@ -329,6 +329,9 @@
     gap: 19px;
   }
 
+  .hero {
+    height: calc(100vh - 60px);
+
   .motto {
     opacity: 0.8;
     z-index: 99;
@@ -437,4 +440,5 @@ margin-top: 0 0 0 182rem; */
   .logo-footer {
     margin: 1.5rem 48.41rem 0.4rem 0;
   }
+}
 }
