@@ -47,6 +47,15 @@
   text-align: center;
 }
 
+.team-name-h1 {
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-size: 1.6rem;
+  margin: auto;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
 .top-menu {
   background-color: var(--primary-color);
   height: 45px;
