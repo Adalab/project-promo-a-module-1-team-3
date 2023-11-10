@@ -6,6 +6,7 @@
 @import "layout/header";
 @import "layout/footer";
 @import "pages/index";
+@import "style.scss";
 
 :root {
   font-size: 62.5%;
@@ -357,7 +358,7 @@
     padding: 1rem;
   }
 
-  .container__team-img{
+  .container__team-img {
     height: 100vh;
   }
 
