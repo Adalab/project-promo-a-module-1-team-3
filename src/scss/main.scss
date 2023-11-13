@@ -201,7 +201,23 @@
   line-height: 1.5;
   color: var(--secundary-color);
 }
-.container {
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+}
+.container1 {
+  font-family: var(--opensans-font);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  padding: 0 5% 5%;
+  font-size: 1.6rem;
+}
+.container2 {
   font-family: var(--opensans-font);
   display: flex;
   flex-wrap: wrap;
@@ -237,7 +253,7 @@
   align-items: center;
 }
 
-.adalaber-description {
+.description-adalaber {
   display: flex;
   /*width: 100vw;
   margin-left: 4%;
@@ -260,7 +276,7 @@
 
 }
 
-.social-media {
+.redes-adalaber {
   color: #099d8d;
   list-style: none;
   display: inline-block;
@@ -394,31 +410,42 @@
     opacity: 0.67;
   }
 
-  /*.tittle-about-us {
-
+  .tittle-about-us {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
   }
 
-  .container {
-
+  .container1 {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: left;
+    align-items: flex-start;
   }
-*/
-  .adalaber-img{
+  .container2 {
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    text-align: right;
+    align-items: flex-start;
+  }
+
+  .img-adalaber{
     width: 20.5rem;
     height: 20.5rem;
   }
-/*
+
   .name-adalaber {
+    align-items: flex-start;
+    margin-left: 4rem;
+  }
+  /*
+  .description-adalaber {
 
   }
 
-  .adalaber-description {
+  .redes-adalaber {
 
   }
-
-  .social-media {
-
-  }
-*/
+  */
   .footer-elements {
     display: grid;
     grid-template-columns: 60% 1fr;
@@ -495,31 +522,44 @@
     width: 60.1rem;
     height: 19.2rem;
   }
-/*
+
   .tittle-about-us {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+  } 
+
+  .container1 {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: left;
+    align-items: flex-start;
+  }
+  .container2 {
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    text-align: right;
+    align-items: flex-start;
+  }
+  .img-adalaber {
+    width: 28rem;
+    height: 28rem;
 
   }
-
-  .container {
-
-  }
-
-  .adalaber-img{
-
+  .container2 {
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
   }
 
   .name-adalaber {
-
+    align-items: flex-start;
+    margin-left: 4rem;
   }
-
-  .adalaber-description {
-
-  }
-
-  .social-media {
+  /*
+  .description-adalaber {
     
   }
-*/
+
+  */
   .footer-elements {
     padding: 1rem 13.8rem;
   }
