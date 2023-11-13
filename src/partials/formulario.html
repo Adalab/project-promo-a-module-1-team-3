@@ -1,31 +1,36 @@
-<section>
-   <h2 class="title-contact">CONTACTO</h2>
-   <article class="description-contact">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae maxime tempora numquam quis facere ex
-         consequatur
-         explicabo repellat. Adipisci repellendus accusantium enim quisquam mollitia quod ab assumenda blanditiis fugiat
-         natus.</p>
-      <p>
-         Todos los campos marcados con <span class="asterisc">*</span> son obligatorios.
-      </p>
-   </article>
+<div class="img">
+    <img class="img-contact" src="../images/hero-contact.jpg" alt="Cuaderno para anotar ideas"
+        title="cuaderno para anotar ideas">
+</div>
+<section class="info">
+
+    <h2 class="title-contact">CONTACTO</h2>
+    <article>
+        <p class="description-contact">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae maxime tempora
+            numquam quis facere ex
+            consequatur
+            explicabo repellat. Adipisci repellendus accusantium enim quisquam mollitia quod ab assumenda blanditiis
+            fugiat
+            natus.</p>
+        <p class="required">
+            Todos los campos marcados con <span class="asterisc">*</span> son obligatorios.
+        </p>
+    </article>
 </section>
-<section>
-   <form class="formulary" action="" method="post">
-      <label for="name">Nombre completo<span class="asterisc">*</span>
-         <input type="text" id="name" name="complete name" placeholder="Nombre..."
+<section class="form">
+    <form class="formulary" action="" method="post">
+        <label class="field" for="name">Nombre completo<span class="asterisc"> *</span></label>
+        <input class="input" type="text" id="name" name="complete name" placeholder="Nombre..."
             title="Escribe tu nombre y apellidos" />
-      </label>
-      <label for="email">Email<span class="asterisc">*</span>
-         <input type="email" id="email" name="email" placeholder="nombre.apellidos@mail.com"
+        <label class="field" for="email">Email<span class="asterisc"> *</span></label>
+        <input class="input" type="email" id="email" name="email" placeholder="nombre.apellidos@mail.com"
             title="Escribe tu email de contacto" />
-      </label>
-      <label for="phone">Teléfono
-         <input type="tel" id="phone" name="telephone" placeholder="Ej: 123456789" title="Escribe tu teléfono" />
-      </label>
-      <label for="notes">Mensaje <span class="asterisc">*</span>
-         <input type="text" id="notes" name="comments" placeholder="¿Qué necesitas?" title="Escribe tu petición" />
-      </label>
-      <input type="submit" value="ENVIAR" />
-   </form>
+        <label class="field" for="phone">Teléfono </label>
+        <input class="input" type="tel" id="phone" name="telephone" placeholder="Ej: 123456789"
+            title="Escribe tu teléfono" />
+        <label class="field" for="notes">Mensaje <span class="asterisc"> *</span></label>
+        <input class="input--text" type="text" id="notes" name="comments" placeholder="¿Qué necesitas?"
+            title="Escribe tu petición" />
+        <input class="submit" type="submit" value="ENVIAR" />
+    </form>
 </section>

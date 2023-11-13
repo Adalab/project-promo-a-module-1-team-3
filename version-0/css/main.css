@@ -54,11 +54,15 @@ font-size: 62.5% ;
 }
 
 .hero {
-    width: 100vw;
-}
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
 
 .team-img{
-    width: 100vw;
+    height: fit-content;
+    width: fit-content;
 }
 
 .motto {
