@@ -13,7 +13,7 @@
   --secundary-color: #54585a;
   --tertiary-color: #099d8d;
   --quaternary-color: #b8b8b9;
-  --quinary-color: black -8;
+  --quinary-color: rgba(0, 0, 0, 0.08);
   --text-color: white;
   --font-family: "Rubik", sans-serif;
   --opensans-font: "Open Sans", sans-serif;
@@ -227,35 +227,48 @@
   align-items: center;
 }
 
-.adalaber-description {
+.adescription-adalaber {
   display:flex
   /*width: 100vw;
-  margin-left: 13%;
-  margin-right: 16%;
-  margin-bottom: 10%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 4%;
   color: #54585a;
-  font-family: OpenSans;
-  font-size: 1.6rem;
   line-height: 1.5;
   text-align: center;*/
 }
 
-.adalaber-img {
+.img-adalaber {
   display: flex;
   width: 50vw;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  border-block-color: var(--quinary-color);
-  border: solid;
-  border-radius: 0.5rem;;
+  border: solid 0.5rem var(--quinary-color);
+  border-radius: 0.4rem;
 
 }
 
 .social-media {
   color: #099d8d;
   list-style: none;
+  display: inline-block;
+  text-decoration: none;
 }
+
+/*
+.social-media__item a:hover {
+  color:#14d9c4
+}
+
+.social-media__item:active {
+  color:#54585a
+}
+
+.social-media__item a::after {
+  content: " · ";
+}
+*/
 
 .footer-elements {
   /*  width: 32rem;
@@ -362,6 +375,31 @@
     opacity: 0.67;
   }
 
+  .tittle-about-us {
+
+  }
+
+  .container {
+
+  }
+
+  .adalaber-img{
+    width: 20.5rem;
+    height: 20.5rem;
+  }
+
+  .name-adalaber {
+
+  }
+
+  .adalaber-description {
+
+  }
+
+  .social-media {
+
+  }
+
   .footer-elements {
     /*  width: 76.8rem;
     height: 17rem;
@@ -417,6 +455,30 @@ margin-top: 0 0 0 182rem; */
   .description {
     width: 60.1rem;
     height: 19.2rem;
+  }
+
+  .tittle-about-us {
+
+  }
+
+  .container {
+
+  }
+
+  .adalaber-img{
+
+  }
+
+  .name-adalaber {
+
+  }
+
+  .adalaber-description {
+
+  }
+
+  .social-media {
+    
   }
 
   .footer-elements {
