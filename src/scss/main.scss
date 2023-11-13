@@ -82,10 +82,12 @@
   overflow: hidden;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .team-img {
-  min-width: 100vw;
+  height: fit-content;
+  width: fit-content;
 }
 
 .motto {
