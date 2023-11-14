@@ -86,8 +86,7 @@
 }
 
 .team-img {
-  height: 150vhq;
-
+  height: 150vh;
 }
 
 .motto {
@@ -273,8 +272,7 @@
   justify-content: center;
   border-color: rgba(0, 0, 0, 0.08);
   border: solid;
-  border-radius: 0.5rem;;
-
+  border-radius: 0.5rem;
 }
 
 .redes-adalaber {
@@ -351,8 +349,6 @@
   margin: 3rem 2.81rem 0 2.8rem;
 }
 
-
-
 @media (min-width: 768px) {
   .fixed {
     flex-direction: row;
@@ -362,7 +358,7 @@
     padding-right: 46px;
   }
 
-  .hero{
+  .hero {
     height: calc(100vh - 60px);
   }
 
@@ -431,7 +427,7 @@
     align-items: flex-start;
   }
 
-  .img-adalaber{
+  .img-adalaber {
     width: 20.5rem;
     height: 20.5rem;
   }
@@ -529,7 +525,7 @@
   .tittle-about-us {
     padding-top: 4.5rem;
     padding-bottom: 4.5rem;
-  } 
+  }
 
   .container1 {
     flex-direction: row;
@@ -546,7 +542,6 @@
   .img-adalaber {
     width: 28rem;
     height: 28rem;
-
   }
   .container2 {
     flex-direction: row-reverse;

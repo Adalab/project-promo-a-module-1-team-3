@@ -18,19 +18,19 @@
     </article>
 </section>
 <section class="form">
-    <form class="formulary" action="https://adalab-server-form.herokuapp.com/" method="post">
+    <form class="formulary" id="server" action="https://formspree.io/f/mwkdjlal" method="post">
         <label class="field" for="name">Nombre completo<span class="asterisc"> *</span></label>
         <input class="input" type="text" id="name" name="complete name" placeholder="Nombre..."
-            title="Escribe tu nombre y apellidos" />
+            title="Escribe tu nombre y apellidos" required />
         <label class="field" for="email">Email<span class="asterisc"> *</span></label>
         <input class="input" type="email" id="email" name="email" placeholder="nombre.apellidos@mail.com"
-            title="Escribe tu email de contacto" />
+            title="Escribe tu email de contacto" required />
         <label class="field" for="phone">Teléfono </label>
         <input class="input" type="tel" id="phone" name="telephone" placeholder="Ej: 123456789"
             title="Escribe tu teléfono" />
         <label class="field" for="notes">Mensaje <span class="asterisc"> *</span></label>
         <input class="input--text" type="text" id="notes" name="comments" placeholder="¿Qué necesitas?"
-            title="Escribe tu petición" />
+            title="Escribe tu petición" required />
         <input class="submit" type="submit" value="ENVIAR" />
     </form>
 </section>
