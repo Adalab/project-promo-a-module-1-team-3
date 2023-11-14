@@ -255,11 +255,12 @@
 
 .description-adalaber {
   display: flex;
+  color: #54585a;
   /*width: 100vw;
   margin-left: 4%;
   margin-right: 4%;
   margin-bottom: 4%;
-  color: #54585a;
+  
   line-height: 1.5;
   text-align: center;*/
 }
@@ -270,7 +271,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  border-block-color: var(--quinary-color);
+  border-color: rgba(0, 0, 0, 0.08);
   border: solid;
   border-radius: 0.5rem;;
 
@@ -279,8 +280,10 @@
 .redes-adalaber {
   color: #099d8d;
   list-style: none;
-  display: inline-block;
   text-decoration: none;
+  display: flex;
+  column-gap: 1.5rem;
+  padding-top: 1rem;
 }
 
 /*
