@@ -118,43 +118,34 @@
   flex-direction: column;
   align-items: center;
   background-color: white;
+  .team-title {
+    color: var(--primary-color);
+    font-family: var(--font-family);
+    font-weight: 500;
+    width: 15rem;
+    height: 4.5rem;
+    font-size: 2.4rem;
+    margin: 0 auto 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    line-height: 1.88;
+  }
+  .description {
+    color: var(--secundary-color);
+    font-size: 1.6rem;
+    text-align: center;
+    width: 29rem;
+    height: 38.4rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    gap: 1rem;
+    font-family: var(--opensans-font);
+    line-height: 1.5;
+  }
 }
 
-.team-title {
-  color: var(--primary-color);
-  font-family: var(--font-family);
-  font-weight: 500;
-  width: 15rem;
-  height: 4.5rem;
-  font-size: 2.4rem;
-  margin: 0 auto 0.5rem;
-  padding: 0.5rem;
-  display: flex;
-  justify-content: center;
-  line-height: 1.88;
-}
-
-.description {
-  color: var(--secundary-color);
-  font-size: 1.6rem;
-  text-align: center;
-  width: 29rem;
-  height: 38.4rem;
-  display: flex;
-  flex-direction: column;
-  margin: 1rem;
-  gap: 1rem;
-  font-family: var(--opensans-font);
-  line-height: 1.5;
-}
-
-.footer-elements {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: auto;
-  padding: 2vh;
-}
 .name-group {
   color: var(--quaternary-color);
   font-family: opensans;
@@ -297,11 +288,7 @@
   content: " · ";
 }
 */
-
 .footer-elements {
-  /*  width: 32rem;
-      height: 25rem;
-      margin: 222.5rem 0 0; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -309,44 +296,36 @@
   padding: 3rem 5rem 4.5rem;
   background-color: white;
   border-top: solid 0.1rem var(--quaternary-color);
-}
-
-.name-group {
-  /* width: 17.2rem;
-  height: 2rem; */
-  margin: 0 0 2rem;
-  color: var(--quaternary-color);
-  font-size: 1.4rem;
-  font-family: var(--opensans-font);
-  text-align: center;
-  line-height: 1.43;
-}
-.footer-list {
-  /* width: 11.4rem;
-      height: 6rem;
-      margin: 2rem 2.9rem 3rem; */
-  font-size: 1.4rem;
-  font-family: var(--opensans-font);
-  color: var(--secundary-color);
-  font-weight: 600;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  list-style: none;
-  line-height: 1.43;
-  opacity: 0.75;
-}
-
-.enlaces {
-  text-decoration-line: none;
-  color: var(--secundary-color);
-}
-
-.logo-footer {
-  width: 11.59rem;
-  height: 4.5rem;
-  margin: 3rem 2.81rem 0 2.8rem;
+  .name-group {
+    margin: 0 0 2rem;
+    color: var(--quaternary-color);
+    font-size: 1.4rem;
+    font-family: var(--opensans-font);
+    text-align: center;
+    line-height: 1.43;
+  }
+  .footer-list {
+    font-size: 1.4rem;
+    font-family: var(--opensans-font);
+    color: var(--secundary-color);
+    font-weight: 600;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    line-height: 1.43;
+    opacity: 0.75;
+    .enlaces {
+      text-decoration-line: none;
+      color: var(--secundary-color);
+    }
+  }
+  .logo-footer {
+    width: 11.59rem;
+    height: 4.5rem;
+    margin: 3rem 2.81rem 0 2.8rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -386,29 +365,25 @@
     opacity: 1;
   }
 
+  .container__team-img {
+    height: 100vh;
+  }
   .team {
     width: 76.8rem;
     height: 26rem;
     margin: 1.5rem auto;
     padding: 1rem;
+    .team-title {
+      color: var(--tertiary-color);
+    }
+    .description {
+      opacity: 0.67;
+      width: 67.8rem;
+      height: 16.8rem;
+      margin: 1.5rem 0 0;
+      opacity: 0.67;
+    }
   }
-
-  .container__team-img {
-    height: 100vh;
-  }
-
-  .team-title {
-    color: var(--tertiary-color);
-  }
-
-  .description {
-    opacity: 0.67;
-    width: 67.8rem;
-    height: 16.8rem;
-    margin: 1.5rem 0 0;
-    opacity: 0.67;
-  }
-
   .tittle-about-us {
     padding-top: 4.5rem;
     padding-bottom: 4.5rem;
@@ -445,23 +420,6 @@
 
   }
   */
-  .footer-elements {
-    display: grid;
-    grid-template-columns: 60% 1fr;
-    grid-template-rows: 6rem 6rem;
-    grid-template-areas:
-      "una dos"
-      "tres cuatro";
-    margin: 4.5rem 0 3rem;
-    padding: 1rem 4.5rem;
-  }
-
-  .name-group {
-    margin: 0;
-    width: 25rem;
-    text-align: left;
-  }
-
   .diamond {
     justify-content: center;
   }
@@ -488,27 +446,39 @@
   .weaknesses {
     width: 100%;
   }
-
-  .footer-list {
-    margin: 0;
-    order: 3;
-    grid-row: span 2;
-    grid-column: dos;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    list-style: none;
-    line-height: 2.14;
-  }
-
-  .logo-footer {
-    grid-area: tres;
-    display: flex;
-    align-items: flex-start;
-    margin: 0;
+  .footer-elements {
+    display: grid;
+    grid-template-columns: 60% 1fr;
+    grid-template-rows: 6rem 6rem;
+    grid-template-areas:
+      "una dos"
+      "tres cuatro";
+    margin: 4.5rem 0 3rem;
+    padding: 1rem 4.5rem;
+    .name-group {
+      margin: 0;
+      width: 25rem;
+      text-align: left;
+    }
+    .footer-list {
+      margin: 0;
+      order: 3;
+      grid-row: span 2;
+      grid-column: dos;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      list-style: none;
+      line-height: 2.14;
+    }
+    .logo-footer {
+      grid-area: tres;
+      display: flex;
+      align-items: flex-start;
+      margin: 0;
+    }
   }
 }
-
 @media (min-width: 1200px) {
   .team {
     width: 120rem;
