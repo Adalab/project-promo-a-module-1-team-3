@@ -183,6 +183,18 @@
   display: flex;
   flex-direction: column;
 }
+.container-article {
+  display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container-article2 {
+  display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .container1 {
   font-family: var(--opensans-font);
   display: flex;
@@ -229,17 +241,29 @@
   flex-direction: column;
   align-items: center;
 }
+.name-adalaber2 {
+  width: 100vw;
+  height: 45px;
+  font-family: var(--opensans-font);
+  font-size: 2rem;
+  line-height: 2, 25;
+  text-align: center;
+  color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 
 .description-adalaber {
   display: flex;
   color: #54585a;
-  /*width: 100vw;
-  margin-left: 4%;
-  margin-right: 4%;
-  margin-bottom: 4%;
-  
-  line-height: 1.5;
-  text-align: center;*/
+  width: 290px;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 25px;
+  text-align: center;
+
 }
 
 .img-adalaber {
@@ -254,27 +278,25 @@
 }
 
 .redes-adalaber {
-  color: #099d8d;
   list-style: none;
   text-decoration: none;
   display: flex;
   column-gap: 1.5rem;
   padding-top: 1rem;
+  justify-content: center;
 }
-
-/*
-.social-media__item a:hover {
-  color:#14d9c4
+.redes-adalaber2 {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  column-gap: 1.5rem;
+  padding-top: 1rem;
+  justify-content: center;
 }
-
-.social-media__item:active {
-  color:#54585a
-}
-
-.social-media__item a::after {
+.icon-rrss::after {
   content: " · ";
 }
-*/
+
 .footer-elements {
   display: flex;
   flex-direction: column;
@@ -375,18 +397,37 @@
     padding-top: 4.5rem;
     padding-bottom: 4.5rem;
   }
-
+  .adalabers {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
   .container1 {
+    width: auto;
     flex-direction: row;
     flex-wrap: nowrap;
     text-align: left;
     align-items: flex-start;
+    padding: 0 44px 67px 44px;
   }
+  
   .container2 {
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     text-align: right;
     align-items: flex-start;
+    padding: 0 44px 67px 44px;
+  }
+  .container-article {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4rem;
+  }
+  .container-article2 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 4rem;
+    text-align: revert;
   }
 
   .img-adalaber {
@@ -396,17 +437,27 @@
 
   .name-adalaber {
     align-items: flex-start;
-    margin-left: 4rem;
+    width: auto;
+    align-content: flex-end;
   }
-  /*
-  .description-adalaber {
-
+  .name-adalaber2 {
+    width: auto;
+    height: 45px;
+    font-family: var(--opensans-font);
+    font-size: 2rem;
+    color: black;
+    display: flex;
+    flex-direction: row-reverse;;
   }
-
-  .redes-adalaber {
-
+  .redes-adalaber2 {
+  color: #099d8d;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  column-gap: 1.5rem;
+  padding-top: 1rem;
+  flex-direction: row-reverse;
   }
-  */
   .diamond {
     justify-content: center;
   }
@@ -461,7 +512,7 @@
       align-items: flex-start;
       margin: 0;
     }
-  }
+  }  
 }
 @media (min-width: 1200px) {
   .team {
@@ -481,37 +532,21 @@
     padding-bottom: 4.5rem;
   }
 
-  .container1 {
-    flex-direction: row;
-    flex-wrap: nowrap;
-    text-align: left;
-    align-items: flex-start;
-  }
-  .container2 {
-    flex-direction: row-reverse;
-    flex-wrap: nowrap;
-    text-align: right;
-    align-items: flex-start;
-  }
+  
   .img-adalaber {
     width: 28rem;
     height: 28rem;
+    border: solid 6.7px lightgrey;
+    border-radius: 5.4px;
   }
-  .container2 {
-    flex-direction: row-reverse;
-    flex-wrap: nowrap;
+  .container1 {
+    padding-left: 138px;
+    padding-right: 300px;
   }
-
-  .name-adalaber {
-    align-items: flex-start;
-    margin-left: 4rem;
-  }
-  /*
-  .description-adalaber {
-    
-  }
-
-  */
+ .container2 {
+  padding-left: 300px;
+  padding-right: 138px;
+ }
   .footer-elements {
     padding: 1rem 13.8rem;
   }
