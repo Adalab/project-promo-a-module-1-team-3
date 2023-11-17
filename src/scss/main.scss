@@ -234,11 +234,11 @@
   font-family: var(--opensans-font);
   font-size: 2rem;
   line-height: 2, 25;
-  text-align: center;
+  /*text-align: center;*/
   color: black;
   display: flex;
   justify-content: center;
-  flex-direction: column;
+ /* flex-direction: column;*/
   align-items: center;
 }
 .name-adalaber2 {
@@ -247,22 +247,22 @@
   font-family: var(--opensans-font);
   font-size: 2rem;
   line-height: 2, 25;
-  text-align: center;
+  /*text-align: center;*/
   color: black;
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  /*flex-direction: column;*/
   align-items: center;
 }
 
 .description-adalaber {
   display: flex;
   color: #54585a;
-  width: 290px;
-  justify-content: center;
-  align-items: center;
+  /*width: 290px;*/
+  /*justify-content: center;
+  align-items: center;*/
   padding: 15px 25px;
-  text-align: center;
+  /*text-align: center;*/
 
 }
 
@@ -272,8 +272,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  border-color: rgba(0, 0, 0, 0.08);
-  border: solid;
+  border: solid 5px lightgrey;
   border-radius: 0.5rem;
 }
 
@@ -433,21 +432,35 @@
   .img-adalaber {
     width: 20.5rem;
     height: 20.5rem;
+    border: solid 45x lightgrey;
   }
 
   .name-adalaber {
     align-items: flex-start;
-    width: auto;
-    align-content: flex-end;
+    width: -webkit-fill-available;
+    text-align: left;
+    justify-content: left;
   }
   .name-adalaber2 {
-    width: auto;
+    width: 795px;
+    flex-direction: column;
+    align-items: end;
+    text-align: right;
+    width: -webkit-fill-available;
     height: 45px;
     font-family: var(--opensans-font);
     font-size: 2rem;
     color: black;
     display: flex;
-    flex-direction: row-reverse;;
+  }
+  .description-adalaber {
+    padding: 15px 0 15px 0;
+  }
+  .redes-adalaber {
+    width: -webkit-fill-available;
+    justify-content: left;
+    text-align: left;
+    color: #099d8d;
   }
   .redes-adalaber2 {
   color: #099d8d;
@@ -456,7 +469,9 @@
   display: flex;
   column-gap: 1.5rem;
   padding-top: 1rem;
-  flex-direction: row-reverse;
+  width: -webkit-fill-available;
+  justify-content: right;
+  text-align: right;
   }
   .diamond {
     justify-content: center;
